@@ -38,11 +38,11 @@ public class Singleton {
 					singletonInstance = new Singleton();
 					System.out.println("Created new instance.");
 				} else {
-					System.out.println("Inner condition... " + singletonInstance == null ? "Singleton instance is null." : "Singleton instance is not null");
+					System.out.println("Inner condition.... " + singletonInstance == null ? "Singleton instance is null." : "Singleton instance is not null");
 				}
 			}
 		} else {
-			System.out.println("Outer condition... " + singletonInstance == null ? "Singleton instance is null." : "Singleton instance is not null");
+			System.out.println("Outer condition.... " + singletonInstance == null ? "Singleton instance is null." : "Singleton instance is not null");
 		}
 		return singletonInstance;
 	}
